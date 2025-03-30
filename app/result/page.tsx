@@ -9,7 +9,6 @@ const ResultPage = () => {
 
   const score = searchParams.get("score");
   const total = searchParams.get("total");
-  const category = searchParams.get("category"); // Tambahkan kategori
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-6">
